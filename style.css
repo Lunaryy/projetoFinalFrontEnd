@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url(assets/back.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+main{
+    display: flex;
+    gap: 50px;
+    margin: 4em;
+}
+
+#carrinho, #quantidade, #valor,#valorTotal{
+    margin: 3em;
+}
+
+nav {
+    
+    background-color: black;
+    max-width: 100%;
+    max-height: 10em;
+    padding-left: 2%;
+    
+}
+
+
+#logopng {
+
+    max-width: 15vh;
+    max-height: 15vh;
+}
+
+.menu {
+
+    color:#FFC145 ;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 90%;
+    
+
+}
+
+.buttontxt {
+    font-family: 'Permanent Marker';
+    text-decoration: none;
+    color: #FFC145;
+    font-size: 30px;
+    margin-left: 4vh;
+}
+
+.container  {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+.menucont {
+    width: 15%;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    padding: 60%;
+    margin-left: 3%; 
+       
+}
+
+.containerc  {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vh;
+
+}
+
+.item {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.img {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(151, 137, 59, 0.22);
+    padding: 20px;
+    margin-bottom: 6vh;
+    margin-right: 3vh;
+    width: 40vh;
+    transition: all 0.3s ease-out;
+    background-color: #FFC145;
+  }
+
+
+.img:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+
+h2 {
+    font-family:'Permanent Marker' ;
+    color: #FFC145;
+    font-size: 4vh;
+
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFC145;
+    font-size: 2vh;
+}
+
+span {
+    font-family:'Permanent Marker' ;
+    color: #FFC145;
+    font-size: 4vh;
+}
+
+.add {
+    font-family: 'Permanent Marker';
+    font-size: 3vh ;
+    color:  #FF1616;
+    padding: 1vh;
+    background-color: #FFC145;
+    border-radius: 30px;
+}
+
+.legend {
+    background-color: #FFC145;
+    font-family: 'Permanent Marker';
+    text-align: center;
+    border-color: #FF1616;
+    border-radius: 5px;
+    border-style: dotted;
+    padding: 1%;
+    color: #FF1616;
+    font-size: 3vh;
+}
+
+@media screen and (min-width: 801px )  {
+    
+    .menucont {
+        margin-left: 15%;
+
+    }
+
+    .containerc {
+        margin-left: 27%;
+    }
+
+    #add-carrinho {
+        margin-left: 30px;
+    }
+
+    #confirmarbox {
+        margin-left: 38vh;
+    }
+
+}
+
+h4 {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFC145;
+    margin-left: 5%;
+}
+
+.total{
+
+   
+    height: 8vh;
+    width: 70%;
+    text-align: left;
+    margin-left: 23%;
+    border-radius: 15px;
+    box-shadow: #FFC145  0px 0px 5px 0px ;
+    padding: 5px 5px 5px 5px;
+    
+}
+
+.total1{
+
+    margin-left: 33%;
+    box-shadow: #FFC145  2px 2px 5px 5px ;
+    color: #FFC145;
+    padding: 5px 5px 5px 5px;
+    height: 8vh;
+    width: 50%;
+    text-align: center;
+    
+}
+
+h3 {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+#lanche {
+
+    margin-left: 25%;
+    box-shadow: #FFC145  2px 2px 5px 5px ;
+    background-color: bisque;   
+    color: black;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    height: 8vh;
+    width: 50%;
+    text-align: center;
+}
+
+#qtd-lanche {
+    margin-left: 20%;
+    box-shadow: #FFC145  2px 2px 5px 5px ;
+    background-color: bisque;
+    color: black;
+    font-size: 8vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 5px 5px 5px;
+    height: 8vh;
+    width: 20%;
+    text-align: center;
+}
+
+legend {
+
+    margin-left: 25%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFC145;
+    font-size: 23px;
+    
+}
+
+#add-carrinho , #confirmar {
+
+    font-family: 'Permanent Marker';
+    text-decoration: none;
+    color: #FF1616;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: #FFC145  2px 2px 5px 5px ;
+    margin-right: 22vh;
+    
+    
+}
+
+#confirmar {
+    margin-left: 64vh;
+}
+
+#add-carrinho:hover , #confirmar:hover {
+
+    color: #FF1616;
+    border-radius: 60px;
+    
+}
+
+.carrinho {
+    align-items: center;
+}
+
+.totaltxt {
+    color: #FFC145;
+}
+
+
+
+
